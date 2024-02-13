@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="icon" href="./Logos/Asset 9@4x.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo_div">
+            <a href="booking.html"><img class="logo" src="./Logos/Asset 16@4x.png" alt="Brand Logo"></a>
+        </div>
+    </header>
+
+
+    <nav>
+        <ul class="nav">
+
+            <li class="home">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="products">
+                <a href="products.html">Products</a>
+            </li>
+            <li class="booking">
+                <a href="booking.html">Booking</a>
+            </li>
+            <li class="contact">
+                <a href="contact.html">Contact</a>
+            </li>
+
+        </ul>
+    </nav>
+
+
+    <main>
+        <div class="booking_heading">
+            <h1>Book Your Table!</h1>
+          </div>
+          
+          <div class="booking_form">
+            <form>
+              <label class="required" for="date">Date:</label>
+              <input type="date" id="date" name="date" required>
+          
+              <label class="required" for="time">Time:</label> 
+              <input type="time" id="time" name="time" required>
+          
+              <label for="party">Party Size:</label>
+              <select id="party" name="party">
+                <option value="1">1</option>
+                <option value="2">2</option> 
+                <option value="3" selected>3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select>
+
+              <label class="required" for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+          
+              <label class="required" for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+          
+              <label class="required" for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" required>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer_logo">
+                <img src="./Logos/Asset 16@4x.png" alt="Brand Logo">
+            </div>
+            <div class="copyright">
+                <p>© 2023 Little Lemon Restaurant. <br>
+                    All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
